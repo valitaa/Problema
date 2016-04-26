@@ -7,6 +7,73 @@
 	color: white;
 }
 
+.tiny {
+	font-size: 9px;
+}
+
+
+
+/*Pagina de contacto*/
+
+.contacto {
+		background: url(../image/large.jpg);
+	background-position: center;
+	background-repeat: none;
+	background-size: cover;
+	text-align: center;
+	min-height: 100vh;
+}
+
+.formulario {
+	background-color: white;
+	border-top: 8px solid #74a3db;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	padding: 5%;
+
+}
+
+.br-bt {
+	border-bottom: 1px solid gray;
+}
+
+.red {
+	color: red;
+}
+
+.pd-fm {
+	width: 70%;
+} 
+.cuadro {
+	background-color: white; 
+	border: 1px solid gray; 
+	width: 80%; 
+	min-height: 20px;
+	margin-bottom: 10px;
+}
+
+.rd-cyan {
+	color: white;
+	background-color: #74a3db;
+	border-radius: 4px;
+}
+
+.tx-cn {
+	text-align: center;
+} 
+
+.iz {
+	position: absolute;
+	left:0; 
+	margin-left: 3%;
+}
+
+.dr {position: absolute;
+	right: 0;
+	margin-right: 3%;
+}
+
+
 
 /*hover effects*/
 

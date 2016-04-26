@@ -24,12 +24,12 @@
 	min-height: 100vh;
 }
 
-.formulario {
+.formulario-b {
 	background-color: white;
 	border-top: 8px solid #74a3db;
 	margin-top: 10%;
 	margin-bottom: 10%;
-	padding: 5%;
+	padding: 3%;
 
 }
 
@@ -44,13 +44,6 @@
 .pd-fm {
 	width: 70%;
 } 
-.cuadro {
-	background-color: white; 
-	border: 1px solid gray; 
-	width: 80%; 
-	min-height: 20px;
-	margin-bottom: 10px;
-}
 
 .rd-cyan {
 	color: white;
@@ -71,6 +64,47 @@
 .dr {position: absolute;
 	right: 0;
 	margin-right: 3%;
+}
+
+
+label {
+display:block;
+margin-top:20px;
+letter-spacing:1px;
+}
+.formulario {
+display:block;
+margin:0 auto;
+width:510px;
+color: white;
+font-family:Arial;
+}
+form {
+margin:0 auto;
+width:490px;
+}
+
+input, textarea {
+width:380px;
+height:27px;
+background: white;
+border:2px solid #f6f6f6;
+padding:10px;
+margin-top:5px;
+font-size:10px;
+color:#ffffff;
+}
+
+textarea {
+height:150px;
+}
+
+#submit {
+width:85px;
+height:35px;
+border:none;
+margin-top:20px;
+cursor:pointer;
 }
 
 

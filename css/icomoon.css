@@ -89,4 +89,15 @@
 .icon-linkedin:before {
 	content: "\e062";
 }
+.icon-copy:before {
+    content: "\e901";
+}
+.icon-pencil:before {
+    content: "\e901";
+}
+
+.icon-film:before {
+    content: "\e902";
+}
+
 

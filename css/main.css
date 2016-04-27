@@ -11,7 +11,13 @@
 	font-size: 9px;
 }
 
+a {
+  text-decoration: none;
+}
 
+a:hover {
+  text-decoration: none;
+}
 
 /*Pagina de contacto*/
 
@@ -191,11 +197,11 @@ cursor:pointer;
 /* Header */
 
 header {
-	background: url(../image/large.jpg);
-	background-position: center;
-	background-repeat: none;
-	background-size: cover;
-	text-align: center;
+  background: url(../image/large.jpg);
+  background-position: center;
+  background-repeat: none;
+  text-align: center;
+  max-height: 650px;
 }
 
 header img {
@@ -238,4 +244,211 @@ ul.lk li a:hover {
     font-size: 14px;
     text-align: center;
     border-radius: 5px;
+}
+
+/*Sections*/
+.titulo{
+  color: #58a5ff;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 35px;
+  padding-bottom: 40px;
+}
+
+.icon{
+  color: #58a5ff;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 40px;
+  border-radius: 50px;
+  padding: 30px;
+  border:1px solid gray;
+}
+
+.icono{
+  margin-left: 30%;
+    padding-bottom: 30px;
+}
+
+.textazul{
+  color: #0172c3;
+    text-align: center;
+    font-size: 22px;
+    padding: 13px;
+    margin-right: 40px;
+    margin-left: 40px;
+
+}
+
+.textazul2{
+  color: #0172c3;
+    text-align: center;
+    font-size: 24px;
+    padding: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
+
+}
+
+.textgris{
+  color: #454545;
+    text-align: center;
+    font-size: 13px;
+    padding: 10px;
+    padding-bottom: 25px;
+}
+
+.hexa{
+  color: #58a5ff;
+    margin-left: 50%;
+    padding-bottom: 20px;
+}
+
+.Ejem{
+  color: #58a5ff;
+  font-size: 35px;
+  padding: 10px;
+}
+
+.gris{
+  color: #454545;
+
+}
+
+.img{
+  max-width: 50%;
+    font-size: 29px;
+    padding: 10px;
+
+}
+.image{
+  padding: 20px;
+    position: absolute;
+    left: 230px
+}
+
+
+.fondo{
+  background-image: url(../image/sec-2.jpg);
+  max-width: 100%;
+  height: 500px;
+ 
+}
+
+.ico2{
+  color: white;
+  background-color: #58a5ff;
+  border-radius: 60px;
+  margin-bottom: 50px;
+  padding: 20px;
+}
+
+.icono2{
+  position: absolute;
+  top: 100px; 
+}
+
+.icono3{
+  position: absolute;
+  top: 250px; 
+}
+
+.icono4{
+  position: absolute;
+  top: 450px; 
+}
+
+.paso{
+  color: #58a5ff;
+}
+
+.pasos{
+  padding: 20px;
+}
+
+.left {
+  text-align: left;
+}
+
+@media (min-width: @screen-md-min) {
+   .fondo{
+    height: 200px;
+   }
+  
+ }
+
+ /*Footer*/
+
+ .logo{
+  padding-top: 11%;
+  float: left;
+  width:53%; 
+}
+
+.porque{
+  float: left;
+  font-size: 40px;
+  padding-top: 10%;
+  color: #58a5ff;
+}
+
+.parrafo{
+  padding-top:26%;
+}
+
+.banner{
+  width:92%;
+  padding-top: 10%;
+}
+
+.parrafo2{
+  padding-top: 2%;
+}
+
+
+.prueba{
+  background-color: #74a3db;
+  color:white;
+  text-align: center;
+  margin-top: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.pruebalo{
+margin-top: 1%;
+color:white;
+}
+
+
+.cajita{
+  border:3px white solid;
+  border-radius: 4px;
+  width: 33%;
+  margin-top: 2%;
+  margin-left: 30%;
+  font-size: 23px;
+}
+
+.escribenos{
+  background-color: #2a3541;
+  color:white;
+  padding-top: 2%;
+  padding-bottom: 1%;
+}
+
+.ico{
+  font-size: 250%;
+  color: #0172c3;
+}
+
+.iconos{
+padding-left: 80%;
+padding-bottom: 2%;
+
+}
+
+.letra{
+  padding-left:67%;
 }
